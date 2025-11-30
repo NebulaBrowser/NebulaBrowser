@@ -1,3 +1,5 @@
+# OUR DISCORD COMMUNITY https://discord.gg/uR3gUY8KnK
+
 # NebulaBrowser 🌌
 
 **NebulaBrowser** is a lightweight, minimal web browser built with **Python + PyQt5**, designed as a personal custom browser with a dark interface, simplicity, and control in mind.
