@@ -1,16 +1,87 @@
-## Hi there 👋
+# NebulaBrowser 🌌
 
-<!--
-**NebulaBrowser/NebulaBrowser** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**NebulaBrowser** is a lightweight, minimal web browser built with **Python + PyQt5**, designed as a personal custom browser with a dark interface, simplicity, and control in mind.
 
-Here are some ideas to get you started:
+> Version: **1.0.0**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## ✨ Concept
+
+Modern browsers are huge: tons of menus, background services, tracking, extensions — they eat resources and distract.  
+NebulaBrowser is meant to be:
+
+- small and understandable;
+- a browser you can actually read and modify;
+- a convenient tool for YouTube, search and everyday browsing;
+- a clean example of a cross-platform PyQt5 application.
+
+---
+
+## 🚀 Features in NebulaBrowser 1.0.0
+
+### Interface & Navigation
+
+- 🧭 Navigation buttons:
+  - **←** – go back  
+  - **→** – go forward  
+  - **⟳** – reload page  
+  - **+** – open a new tab (defaults to `https://www.google.com`)
+- 📜 Address bar:
+  - type full URL or just a domain/query (if it doesn’t start with `http`, `https://` is added automatically)
+  - updates automatically when you navigate
+- 🧩 Multiple tabs:
+  - open several pages at once
+  - close tabs via the built-in close button
+  - links with `target="_blank"` open in a new tab
+
+### Look & Feel
+
+- 🌑 **Dark theme** by default:
+  - dark window, toolbar and tab area
+  - light, readable text
+- 🎚 Minimal toolbar:
+  - only essential buttons and address bar
+  - symbols instead of noisy icons and labels
+
+### Web Engine
+
+- ⚙️ Powered by **QtWebEngine** (Chromium-based engine):
+  - supports modern HTML5 / CSS3 / JavaScript
+
+### Downloads
+
+- 📥 File downloads:
+  - uses the `downloadRequested` callback
+  - saves files to the system **Downloads** folder
+- 📊 Downloads bar at the bottom:
+  - file name
+  - progress bar with percentage
+  - **Open** button to open the downloaded file
+- 📂 Opening downloaded files:
+  - uses system default applications via OS file associations
+
+### Profiles & Storage
+
+- 🧩 Browser profile: `NebulaProfile`
+  - in-memory HTTP cache (`MemoryHttpCache`)
+  - persistent cookies policy enabled
+  - sessions/cookies can survive between runs (depending on site restrictions)
+
+### Cross-platform
+
+- 🪟 **Windows**
+  - start via `NebulaBrowser.bat` or `python NebulaBrowser.py`
+- 🍏 **macOS**
+  - start via `./NebulaBrowser.sh` or `python3 NebulaBrowser.py`
+- 🐧 **Linux**
+  - same as macOS, as long as Python and PyQt are installed
+
+---
+
+## 🧱 Tech Stack
+
+- **Python 3.x**
+- **PyQt5**
+- **PyQtWebEngine**
+- QtWebEngine (Chromium-based)
