@@ -20,6 +20,25 @@ NebulaBrowser is meant to be:
 
 ---
 
+## 🆕 New Experimental Features (1.1.0)
+
+These are early features that improve NebulaBrowser’s usability, but may not yet be perfectly stable:
+
+- **Extensions menu**  
+  Includes:  
+  - AdBlock  
+  - Auto Dark Mode  
+  - YouTube Ad-Skip  
+  - x16 Video Speed Mode  
+
+- **YouTube Auto Ad-Skip**
+- **Basic AdBlock system**
+- **x16 Video Speed toggle for YouTube**
+
+*(may be laggy — we are still working on this)*
+
+---
+
 ## 🚀 Features in NebulaBrowser 1.0.0
 
 ### Interface & Navigation
