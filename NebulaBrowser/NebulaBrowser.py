@@ -115,7 +115,7 @@ class BrowserTab(QWebEngineView):
 class Browser(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("NebulaBrowser 1.1.3")
+        self.setWindowTitle("NebulaBrowser 1.1.0")
         self.setGeometry(200, 120, 1300, 850)
 
         ensure_files()
