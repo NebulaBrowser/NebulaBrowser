@@ -3,9 +3,10 @@
 # NebulaBrowser 🌌
 
 **NebulaBrowser** is a lightweight, minimal web browser built with **Python + PyQt5**, designed as a personal custom browser with a dark interface, simplicity, and control in mind.
-UPDATE
+
 > Version: **1.1.0**
 
+UPDATE
 ---
 
 ## ✨ Concept
